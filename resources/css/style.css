@@ -1,26 +1,33 @@
-.company {
-  display: flex;
-  align-items: center;
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
 
-  padding: 12px 0 12px 0.5em;
-
+.header {
   background-color: black;
 }
 
-.company__logo img {
-  height: 15px;
-  margin-right: 1rem;
-  margin-left: 0.5rem;
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 12px 0 12px 8px;
 }
 
-.company__title {
+.logo__symbol {
+  width: 23px;
+  height: 15px;
+  margin: 0 16px 0 8px;
+
+  background-image: url("../images/logo.png");
+}
+
+.logo__company-name {
   color: white;
   font-family: Helvetica;
   font-size: 1rem;
 }
 
 .main-banner {
-
   background-image: url('../images/moto.jpeg');
   background-repeat: no-repeat;
 }
